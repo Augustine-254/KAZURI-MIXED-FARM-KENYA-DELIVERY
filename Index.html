@@ -1,15 +1,13 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>Kazuri Mixed Farms Kenya | Livestock & Poultry Farming</title>
-
 <!-- SEO -->
-<meta name="description" content="Kazuri Mixed Farms Kenya â€“ Professional dairy cattle, goats, sheep, poultry and pig farming in Kibwezi, Makueni County.">
+<meta name="description" content="Kazuri Mixed Farms Kenya – Professional dairy cattle, goats, sheep, poultry and pig farming in Kibwezi, Makueni County.">
 <meta name="keywords" content="Kazuri Mixed Farms, Dairy Farming Kenya, Poultry Farming, Girolando Cattle, Dorper Sheep">
 <meta name="author" content="Kazuri Mixed Farms Kenya">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <style>
 body{margin:0;font-family:Arial,sans-serif;background:#f5f7f8;color:#2c3e50}
 header{background:#1b5e20;color:#fff;padding:35px;text-align:center}
@@ -63,7 +61,6 @@ input,textarea{
 </head>
 
 <body>
-
 <header>
 <img src="images/logo.png" alt="Kazuri Mixed Farms Logo">
 <h1>KAZURI MIXED FARMS KENYA</h1>
@@ -163,12 +160,12 @@ We specialize in quality livestock breeding and sustainable farming practices.
 
 <select id="product" onchange="updatePrice()" required>
 <option value="">Select Product</option>
-<option value="150000">Dairy Cattle â€“ KSh 150,000</option>
-<option value="25000">Dorper Sheep â€“ KSh 25,000</option>
-<option value="30000">Dairy Goats â€“ KSh 30,000</option>
-<option value="600">Broilers â€“ KSh 600</option>
-<option value="1200">Layers â€“ KSh 1,200</option>
-<option value="35000">Pigs â€“ KSh 35,000</option>
+<option value="150000">Dairy Cattle – KSh 150,000</option>
+<option value="25000">Dorper Sheep – KSh 25,000</option>
+<option value="30000">Dairy Goats – KSh 30,000</option>
+<option value="600">Broilers – KSh 600</option>
+<option value="1200">Layers – KSh 1,200</option>
+<option value="35000">Pigs – KSh 35,000</option>
 </select>
 
 <input type="number" id="quantity" min="1" placeholder="Quantity" onchange="updatePrice()" required>
@@ -179,10 +176,10 @@ We specialize in quality livestock breeding and sustainable farming practices.
 </select>
 
 <select id="location" onchange="updateDelivery()">
-<option value="0">Pick Up â€“ Free</option>
-<option value="1000">Kibwezi â€“ KSh 1,000</option>
-<option value="2000">Wote â€“ KSh 2,000</option>
-<option value="3000">Machakos â€“ KSh 3,000</option>
+<option value="0">Pick Up – Free</option>
+<option value="1000">Kibwezi – KSh 1,000</option>
+<option value="2000">Wote – KSh 2,000</option>
+<option value="3000">Machakos – KSh 3,000</option>
 </select>
 
 <p><strong>Total: KSh <span id="total">0</span></strong></p>
@@ -245,7 +242,7 @@ function payWithPaystack(){
 
 function sendOrder(ref){
   let text =
-    "PAID ORDER â€“ KAZURI MIXED FARMS%0A" +
+    "PAID ORDER – KAZURI MIXED FARMS%0A" +
     "Name: " + name.value + "%0A" +
     "Phone: " + phone.value + "%0A" +
     "Product: " + product.selectedOptions[0].text + "%0A" +
@@ -259,5 +256,3 @@ function sendOrder(ref){
 
 </body>
 </html>
-
-
